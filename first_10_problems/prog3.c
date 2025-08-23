@@ -2,15 +2,13 @@
 #include<stdio.h>
 
 int main(){
-    int l=10;
-    int b=20;
-    int perimeter,area;
+    float l=10,b=20,perimeter,area;
 
     perimeter=2*(l+b);
-    printf("\nThe perimeter of the rectangle is : %d",perimeter);
+    printf("\nThe perimeter of the rectangle is : %0.2f",perimeter);
 
     area=l*b;
-    printf("\nThe area of the rectangle is : %d",area);
+    printf("\nThe area of the rectangle is : %0.2f",area);
 
     return 0;
 }
