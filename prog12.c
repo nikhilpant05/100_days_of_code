@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-int main(){
+void main(){
     int a;
     printf("Enter an integer : ");
     scanf("%d",&a);
