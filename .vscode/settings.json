@@ -2,7 +2,8 @@
     "code-runner.runInTerminal": true,
     "files.associations": {
         "PROG9.C": "cpp",
-        "prog.C": "cpp"
+        "prog.C": "cpp",
+        "stdio.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
