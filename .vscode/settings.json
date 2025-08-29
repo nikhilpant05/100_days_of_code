@@ -3,5 +3,6 @@
     "files.associations": {
         "PROG9.C": "cpp",
         "prog.C": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
