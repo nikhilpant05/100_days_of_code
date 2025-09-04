@@ -9,39 +9,39 @@ void main(){
 
     switch(month){
         case 1:
-            printf("January\n");
+            printf("January , 31 days\n");
         break;
         case 2:
-            printf("February\n");
+            printf("February , 28 days\n");
         break;
         case 3:
-            printf("March\n");
+            printf("March , 31 days\n");
         break;
         case 4:
-            printf("April\n");
+            printf("April , 30 days\n");
         case 5:
-            printf("May\n");
+            printf("May , 31 days\n");
         break;
         case 6:
-            printf("June\n");
+            printf("June , 30 days\n");
         break;
         case 7:
-        printf("July\n");
+        printf("July , 31 days\n");
         break;
         case 8:
-            printf("August\n");
+            printf("August , 31 days\n");
         break;
         case 9:
-            printf("September\n");
+            printf("September , 30 days\n");
         break;
         case 10:
-            printf("October\n");
+            printf("October , 31 days\n");
         break;
         case 11:
-            printf("November\n");
+            printf("November , 30 days\n");
         break;
         case 12:
-            printf("December\n");
+            printf("December , 31 days\n");
         break;
         default:
             printf("Wrong Month number...");
