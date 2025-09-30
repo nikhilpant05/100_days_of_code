@@ -4,7 +4,7 @@
 
 int main() {
     int n, bin = 0, x = 1, rem;
-    printf("Enter number for input : ")
+    printf("Enter number for input : ");
     scanf("%d", &n);
     
     while (n > 0) {
