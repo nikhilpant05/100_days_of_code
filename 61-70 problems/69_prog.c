@@ -3,21 +3,32 @@
 #include <stdio.h>
 
 int main() {
-    int arr[100], n, i;
-    int largest, secondLargest;
+    int n, i;
+    printf("Enter size of array: ");
     scanf("%d", &n);
-    for (i = 0; i < n; i = i + 1) {
+    int arr[n];
+    printf("Enter %d elements: ", n);
+    for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    largest = secondLargest;
-    for (i = 0; i < n; i = i + 1) {
-        if (arr[i] > largest) {
-            secondLargest = largest;
-            largest = arr[i];
-        } else if (arr[i] > secondLargest && arr[i] != largest) {
-            secondLargest = arr[i];
+    int first, second;
+    first = second = arr[0];
+    for (i = 1; i < n; i++) {
+        if (arr[i] > first)
+            first = arr[i];
+    }
+    second = -1; 
+    for (i = 0; i < n; i++) {
+        if (arr[i] != first) {
+            if (second == -1 || arr[i] > second) {
+                second = arr[i];
+            }
         }
     }
-    printf("%d\n", secondLargest);
+    if (second == -1)
+        printf("No second largest element (all are same)");
+    else
+        printf("Second largest element = %d", second);
+
     return 0;
 }
