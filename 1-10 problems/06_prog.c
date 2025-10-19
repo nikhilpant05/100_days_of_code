@@ -5,9 +5,10 @@ int main(){
     int a,b,c;
     printf("Enter two numbers to swap : ");
     scanf("%d%d",&a,&b);
-    c=b;
-    b=a;
-    printf("The numbers after swapping are : %d %d",c,b);
+    c=a;
+    a=b;
+    b=c;
+    printf("The numbers after swapping are : %d %d",a,b);
     
     return 0;
 }
