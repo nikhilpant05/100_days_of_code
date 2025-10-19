@@ -4,7 +4,7 @@
 int main(){
     int a,b,c;
     printf("Enter two numbers to swap : ");
-    scanf("%d%d",&a,&b);
+    scanf("%d %d",&a,&b);
     c=a;
     a=b;
     b=c;

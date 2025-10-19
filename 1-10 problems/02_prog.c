@@ -5,7 +5,7 @@ int main(){
 
     int a,b,sum,difference,product,quotient;
     printf("Enter two numbers : ");
-    scanf("%d%d",&a,&b);
+    scanf("%d %d",&a,&b);
     
     sum=a+b;
     printf("The sum of the numbers is : %d",sum);
