@@ -2,17 +2,12 @@
 
 #include<stdio.h>
 int main(){
-    int n,i=1,sum=0;
+    int n,sum;
     printf("Enter first n natural numbers : ");
     scanf("%d",&n);
-    while (i<=n){
-        sum+=i;
-        i++;
-    }
-
+    sum=(n*(n+1))/2;
     printf("The sum of first %d natural numbers is : %d",n,sum);
 
     return 0;
         
-    
 }
