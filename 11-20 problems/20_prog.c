@@ -30,9 +30,6 @@ int main() {
         case 7:
             printf("Saturday\n");
             break;
-        default:
-            printf("Invalid input! Please enter a number between 1 and 7.\n");
-            break;
     }
 
     return 0;
