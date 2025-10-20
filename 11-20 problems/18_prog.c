@@ -3,25 +3,25 @@
 #include <stdio.h>
 
 int main() {
-    int percentage;
-    printf("Enter your percentage : ");
-    scanf("%d", &percentage);
+    int p;
+    
+    printf("Enter percentage : ");
+    scanf("%d",&p);
 
-    if (percentage >= 90) {
-        printf("Grade A\n");
-    }
-    else if (percentage >= 80) {
-        printf("Grade B\n");
-    }
-    else if (percentage >= 70) {
-        printf("Grade C\n");
-    }
-    else if (percentage >= 60) {
-        printf("Grade D\n");
-    }
-    else {
-        printf("Grade F\n");
-    }
+    if ( p>=90 && p<=100 )
+    printf("Grade A");
+
+    else if ( p>=80 && p<=89 )
+    printf("Grade B");
+
+    else if ( p>=70 && p<=79 )
+    printf("Grade C");
+
+    else if ( p>=60 && p<=69 )
+    printf("Grade D");
+
+    else 
+    printf("Grade F");
 
     return 0;
 }
