@@ -16,6 +16,9 @@ void main() {
         percentage = ((cp - sp) * 100) / cp;
         printf("Loss %d%%\n", percentage);
     } 
+    else {
+        printf("No Profit No Loss\n");
+    }
 }
 
 
